@@ -1,0 +1,130 @@
+/*HEADER AREA*/
+body{
+	background-color: #e1e8dc;
+	font-family:  "inter", sans-serif;
+}
+header{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	margin: 0;
+
+}
+header, a:hover{
+	color: gold;
+}
+header, a{
+	align-content: center;
+	font-size: large;
+	padding-right: 50px;
+	text-decoration: none;
+	color: blue;    
+	font-family: "inter", sans-serif;
+}
+.header-image{
+	padding-left: 50px;
+	display: flex;
+	padding-top: 40px;
+}
+.image{
+	text-align: center;
+	justify-content: center;
+}
+.text, h1{
+	font-family: "inter", sans-serif;
+	color: blue;
+	padding-top: 60px;
+	padding-left: 35px;
+}
+.sub-text{
+	padding-right: 100px;
+	padding-left: 40px;
+    color: #181e74;
+}
+/*HEADER AREA ENDS*/
+
+main{
+	margin-top: 50px;
+	margin-right:250px ;
+	margin-left: 250px;
+	background-color: #bdb6e8;
+	border-radius: 1em;
+}
+.form-container{
+	text-align: center;
+	justify-content: space-between;
+}
+.form{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.label-one{
+	padding: 0.8rem 1.2rem;
+	border-radius: 3px;
+	padding-top: 10px;	
+	border: none;
+}
+.label-two{
+	padding: 0.8rem;
+	padding-left: 1em;
+	padding-right: 3em;
+	border-radius: 3px;
+	border: none;
+
+}
+.label{
+    color: #181e74
+	justify-items: flex-start;
+	text-align: left;
+
+}
+.label-three{
+	padding: 3em;
+	border-radius: 3px;
+	border: none;
+	min-height: 11.2rem;
+
+
+}
+button{
+	margin-bottom: 10px;
+	padding: 5px;
+	align-content: center;
+	color: white;
+	background-color: blue;
+	border-color: blue;
+	border-radius: 8px;
+}
+button, .submit{
+	font-size: 1.3em;
+	padding-left: 39px;
+	text-align: center;
+	color: white;
+}
+button:hover{
+	background-color: black;
+	border-color: white;
+}
+.submit:hover{	
+	color: blue;
+}
+.button{
+	text-align: center;
+}
+
+
+/*FOOTER STARTS*/
+footer{
+	color: #afb2dc;
+}
+#footer{
+	color: #afb2dc;
+	text-align: center;
+}
+.destiny{
+	color: #afb2dc;
+}
+.destiny:hover{
+	color:blue;
+}
+/*FOOTER ENDS*/

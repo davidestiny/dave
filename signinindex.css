@@ -1,0 +1,156 @@
+/*HEADER AREA*/
+body{
+	background-color: #e1e8dc;
+	font-family:  "inter", sans-serif;
+}
+header{
+	padding-top: 20px;
+	text-align: center;
+	margin: 0;
+
+}
+header, a:hover{
+	color: gold;
+}
+header, a{
+	align-content: center;
+	font-size: large;
+	padding-right: 50px;
+	text-decoration: none;
+	color: blue;    
+	font-family: "inter", sans-serif;
+}
+.header-image{
+	padding-left: 50px;
+	display: flex;
+	padding-top: 40px;
+}
+.image{
+	text-align: center;
+	justify-content: center;
+}
+.text, h1{
+	font-family: "inter", sans-serif;
+	color: blue;
+	padding-top: 60px;
+	padding-left: 35px;
+}
+.sub-text{
+	padding-right: 100px;
+	padding-left: 40px;
+    color: #181e74;
+}
+/*HEADER AREA ENDS*/
+
+
+.section{
+	height: calc(100vh 6.2rem);
+	margin: auto;
+}
+
+.reg-form-section {    
+	background-color: #bdb6e8;
+    width: 64rem;
+    max-width: 100%;
+    margin: 6.8rem auto;
+    border-radius: 1rem;
+    padding-top: 2.4rem;
+}
+
+.login-heading, .reg-heading {
+    text-align: center;
+    margin: 0.6rem 0 3rem;
+    font-size: 1.4rem;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.login-heading, .reg-heading {
+    text-align: center;
+    margin: 0.6rem 0 3rem;
+    font-size: 1.4rem;
+}
+
+.reg-form {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    background-color: #bdb6e8;;
+    column-gap: 4.8rem;
+    row-gap: 1.6rem;
+    padding: 0 2.4rem 2.4rem;
+}
+div {
+    display: block;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 2.2rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 1.4rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    color: #444;
+}
+
+.btn {
+    padding: 0.8rem 1.2rem;
+    outline: none;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    background-color: #535bce;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-size: 1.4rem;
+    transition: all 0.4s;
+    margin-bottom: 4.2rem;
+}
+
+/*FOOTER STARTS*/
+footer{
+	color: #afb2dc;
+}
+#footer{
+	color: #afb2dc;
+	text-align: center;
+}
+.destiny{
+	color: #afb2dc;
+}
+.destiny:hover{
+	color:blue;
+}
+
+.twitter:hover{
+	background-color: black;
+	color: blue;
+}
+.instagram:hover{
+	background-color: black;
+	color: blue;
+}
+.fb:hover{
+	background-color: black;
+	color: blue;
+}
+/*FOOTER ENDS*/

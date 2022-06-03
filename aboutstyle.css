@@ -1,0 +1,100 @@
+/*HEADER AREA*/
+body{
+	background-color: #e1e8dc;
+	font-family:  "inter", sans-serif;
+}
+header{
+	padding-top: 20px;
+	text-align: center;
+	margin: 0;
+
+}
+header, a:hover{
+	color: gold;
+}
+header, a{
+	align-content: center;
+	font-size: large;
+	padding-right: 50px;
+	text-decoration: none;
+	color: blue;    
+	font-family: "inter", sans-serif;
+}
+.header-image{
+	padding-left: 50px;
+	display: flex;
+	padding-top: 40px;
+}
+.image{
+	text-align: center;
+	justify-content: center;
+}
+.text, h1{
+	font-family: "inter", sans-serif;
+	color: blue;
+	padding-top: 60px;
+	padding-left: 35px;
+}
+.sub-text{
+	padding-right: 100px;
+	padding-left: 40px;
+    color: #181e74;
+}
+/*HEADER AREA ENDS*/
+
+div, .hobbies-area{
+	padding-left: 10px;
+
+}
+
+#fill-in{
+	padding-top: 50px;
+}
+#fill-in, ul{
+	color: #181e74;
+}
+
+.skills, .hobbies, .priorities{
+	color: blue;
+    font-family: "inter", sans-serif, serif;
+}
+ul{
+	list-style: none;
+}
+button{
+	padding: 20px;
+	align-content: center;
+	color: white;
+	background-color: blue;
+	border-color: blue;
+	border-radius: 8px;
+}
+button, .click{
+	font-size: 1.3em;
+	padding-left: 39px;
+	text-align: center;
+	color: white;
+}
+button:hover{
+	background-color: black;
+	border-color: white;
+}
+.click:hover{	
+	color: blue;
+}
+.button{
+	text-align: center;
+}
+
+/*FOOTER STARTS*/
+footer{
+	color: #afb2dc;
+	text-align: center;
+}
+.destiny{
+	color: #afb2dc;
+}
+.destiny:hover{
+	color: #1c1d1d;
+}
+/*FOOTER ENDS*/
